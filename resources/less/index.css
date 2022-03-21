@@ -124,6 +124,7 @@ body {
     font-size: 1em;
     text-transform: uppercase;
     letter-spacing: 1px;
+    display: none;
   }
   .header {
     position: absolute;
@@ -176,7 +177,7 @@ body {
   .nav-content span a {
     height: 60px;
     width: 60px;
-    background: #fff;
+    background: #04a6f1;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -185,7 +186,7 @@ body {
   }
   .nav-content .toggle-btn {
     font-size: 35px;
-    color: #0e2431;
+    color: #ffffff;
     z-index: 100;
     cursor: pointer;
     transform: rotate(-225deg);
@@ -209,7 +210,7 @@ body {
   }
   .nav-content span a i {
     font-size: 24px;
-    color: #0e2431;
+    color: #ffffff;
     transform: rotate(calc(var(--i) * (360deg/-8)));
     opacity: 0.8;
     transition: 0.2s;
